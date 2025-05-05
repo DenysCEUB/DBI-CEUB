@@ -30,7 +30,9 @@
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cpfPessoa" id="9771DB26-F79C-268F-CCBC-E59E987BE571">
@@ -42,8 +44,11 @@
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="pesoPessoa" id="328337B8-59D4-0D2F-78A9-2EC83F42C2B4">
 <createdBy>denys.silva</createdBy>
@@ -54,8 +59,11 @@
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="alturaPessoa" id="90A48F25-5F3E-3872-908B-B1DB978B8F69">
 <createdBy>denys.silva</createdBy>
@@ -66,8 +74,11 @@
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vlrImcPessoa" id="A0E3ABA1-DC19-ED91-EDDB-38C55D548DDF">
 <createdBy>denys.silva</createdBy>
@@ -79,10 +90,12 @@
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="analiseImcPessa" id="BFF129C4-5490-6E30-C54A-BEBC9EB26819">
+<Attribute name="analiseImcPessoa" id="BFF129C4-5490-6E30-C54A-BEBC9EB26819">
 <createdBy>denys.silva</createdBy>
 <createdTime>2025-04-03 22:10:26 UTC</createdTime>
 <comment><![CDATA[Registro a análise do IMC da Pessoa a partir do resultado do cálculo do IMC, conforme segue:
@@ -100,32 +113,40 @@
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpfPessoa1" id="3D6FA01A-2D99-8C34-8B7C-F9BDCFA4A59F">
+<Attribute name="cpfPessoa1" id="319BE806-3A42-6969-A336-0D5289CD7F43">
 <createdBy>denys.silva</createdBy>
-<createdTime>2025-04-03 22:12:12 UTC</createdTime>
-<generatorID>41A2A4BA-6888-B112-8610-25686358A2D0</generatorID>
+<createdTime>2025-04-28 23:27:23 UTC</createdTime>
+<generatorID>2DBB3E45-93F1-D1D0-55FC-030EBC362BF7</generatorID>
 <ownerDesignName>ProjDB-IMC</ownerDesignName>
 <engineerTo>
 <item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
 <item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>3B5E0956-81E3-CFE0-180B-BC617DACA87D</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B74C6C4C-5F44-6246-30A6-247F1BA3E4F6" name="HistoricoImcPessoa PK">
+<identifier id="B74C6C4C-5F44-6246-30A6-247F1BA3E4F6" name="HistoricoImcPessoa_PK">
 <createdBy>denys.silva</createdBy>
 <createdTime>2025-04-03 22:08:26 UTC</createdTime>
 <ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
-<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="false"/>
 <item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
 </engineerTo>
 <pk>true</pk>

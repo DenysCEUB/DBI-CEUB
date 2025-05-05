@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AE23F3F-1EA5-82A8-05BC-4B58737BC9D0" name="Pessoa">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-28 23:45:53 UTC</createdTime>
+<generatorID>B943168F-0707-35D2-EF57-233D10BFA697</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<ordsAlias>pes</ordsAlias>
+<abbreviation>Pessoa</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="452B81A2-4035-FCB4-9459-6BFA97AE0C28">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-28 23:45:53 UTC</createdTime>
+<generatorID>3B5E0956-81E3-CFE0-180B-BC617DACA87D</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="B6AC3E7D-6D4D-293E-6F97-2A892D8FF64D">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-28 23:45:53 UTC</createdTime>
+<generatorID>147B9F53-F643-175D-EB48-F429B989B936</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexoPessoa" id="441797DD-809F-575D-7488-DF8886928FAA">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-29 00:25:59 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB667117-DD7C-1A8C-781D-996FD74A8B1A" name="Pessoa_PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-28 23:45:53 UTC</createdTime>
+<generatorID>B243AE82-68B2-E4F1-9B66-8E0E3D59E6F9</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="452B81A2-4035-FCB4-9459-6BFA97AE0C28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
